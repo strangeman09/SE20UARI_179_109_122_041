@@ -6,7 +6,7 @@ from firebase import firebase
 firebase = firebase.FirebaseApplication('YOUR_FIREBASE_URL', None)
 
 
-ir_sensor_pin = 17  # Example pin, change it according to your wiring
+ir_sensor_pin = 17  
 
 
 GPIO.setmode(GPIO.BCM)
